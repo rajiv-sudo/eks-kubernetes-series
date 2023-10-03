@@ -65,4 +65,4 @@ If your setup is successful, you will see sample output like below, showing the 
 <img src="https://github.com/rajivmandal123/eks-kubernetes-series/blob/main/images/kubectl-get-nodes-output.png?raw=true" alt="Link" width="600"/>
 
 # Summary
-In this example, we saw how you can use the Intel Cloud Optimization Moduled for Terraform - Amazon EKS Module to create the EKS cluster and how you can setup your workstation or laptop to connect to this EKS cluster and run kubernetes kubectl commands.
+In this example, we saw how you can use the ```Intel Cloud Optimization Modules for Terraform - Amazon EKS Module``` to create the EKS cluster and how you can setup your workstation or laptop to connect to this EKS cluster and run kubernetes kubectl commands.
