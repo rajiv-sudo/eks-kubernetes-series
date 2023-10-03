@@ -7,7 +7,7 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service p
 
 In this series, we will explore different setup, configuration and code modules that shows how customers can get started with Amazon EKS and build sample applications and features.
 
-*Here are the modules available in the series:*
+**Here are the modules available in the series:**
 
-## 01 - Setting up and connecting to an Amazon EKS Cluster
+## [01 - Setting up and connecting to an Amazon EKS Cluster](https://github.com/rajivmandal123/eks-kubernetes-series/tree/main/01-EKS-setup-and-connect)
 
