@@ -9,5 +9,5 @@ In this series, we will explore different setup, configuration and code modules 
 
 **Here are the modules available in the series:**
 
-## [01 - Setting up and connecting to an Amazon EKS Cluster](https://github.com/rajivmandal123/eks-kubernetes-series/tree/main/01-EKS-setup-and-connect)
+## [01 - Setting up and connecting to an Amazon EKS Cluster](https://github.com/rajivmandal123/eks-kubernetes-series/tree/main/Examples/01-EKS-setup-and-connect)
 
