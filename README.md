@@ -5,7 +5,7 @@ Customers prefer using managed Kubernetes services because they offload the comp
 
 Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service provided by Amazon Web Services (AWS). It simplifies the deployment, scaling, and management of containerized applications using Kubernetes, offering a highly available and secure platform for running container workloads on AWS infrastructure.
 
-In this series, we will explore different setups, configurations and code modules that show how customers can get started with Amazon EKS and build features and applications.
+In this series, we will explore different setups, configurations and code modules that show how customers can get started with Amazon EKS and how they can build features and applications.
 
 **Here are the modules available in the series:**
 
