@@ -1,9 +1,9 @@
 # Summary
-In this example, we will create an Amazon EKS cluster using EKS managed node group. Then we will show how to connect to the kubernestes cluster from the user's computer using kubectl. 
+In this example, we will create an Amazon EKS cluster using EKS managed node group. Then we will show how to connect to the kubernestes cluster from the user's computer using kubectl.
 
 We will use Hashicorp Terraform example from [Intel Cloud Optimization Modules for Terraform - Amazon EKS Module](https://github.com/intel/terraform-intel-aws-eks/tree/main/Examples/EKS_Managed_Node_Group) to create the cluster on Amazon EC2 instances. This is using Terraform which is an enterprise accepted Infrastructure as Code tool that works across multi cloud platforms.
 
-**Note - ** You can use other methods to create your Amazon EKS cluster, following AWS Documentation - [Creating an Amazon EKS cluster](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) and [Creating a managed node group](https://docs.aws.amazon.com/eks/latest/userguide/create-managed-node-group.html). 
+**Note -** You can use other methods to create your Amazon EKS cluster, following AWS Documentation - [Creating an Amazon EKS cluster](https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html) and [Creating a managed node group](https://docs.aws.amazon.com/eks/latest/userguide/create-managed-node-group.html). 
 
 # Pre-requisites
 1. Hashicorp Terraform installed. Documentation for [Hashicorp Terraform Install](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
@@ -16,7 +16,7 @@ We will use Hashicorp Terraform example from [Intel Cloud Optimization Modules f
 The architecture diagram is showing our EKS managed kubernetes cluster in AWS. The user connects to the EKS cluster via the EKS managed control plane. The cluster is setup with 2 worker nodes within an auto scaling group spread across different availability zones.
 
 **Architecture - Managed Kubernetes Cluster with EKS Managed Node Group**
-<img src="https://github.com/rajivmandal123/eks-kubernetes-series/blob/main/images/EKS-Setup-and-Connect.png?raw=true" alt="Link" width="600"/>
+<img src="https://github.com/rajiv-sudo/eks-kubernetes-series/blob/main/images/EKS-Setup-and-Connect.png?raw=true" alt="Link" width="600"/>
 
 # Steps
 Complete the pre-requisite steps mentioned in the Pre-requisites section. Once the pre-requisites steps are completed, follow the steps below.
@@ -56,13 +56,13 @@ In the above command, ```us-east-1``` is the AWS region where the EKS cluster is
 More information about [Creating or updating a kubeconfig file for an Amazon EKS cluster](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html)
 
 ### Step05:
-in this step, we will confirm we can run ```kubectl``` commands to interact with the EKS cluster. Run the below command.
+In this step, we will confirm we can run ```kubectl``` commands to interact with the EKS cluster. On your workstation/desktop/laptop, open a command prompt or terminal, then run the below command.
 ```hcl
 kubectl get nodes
 ```
 If your setup is successful, you will see sample output like below, showing the EKS managed nodes in your EKS managed cluster.
 
-<img src="https://github.com/rajivmandal123/eks-kubernetes-series/blob/main/images/kubectl-get-nodes-output.png?raw=true" alt="Link" width="600"/>
+<img src="https://github.com/rajiv-sudo/eks-kubernetes-series/blob/main/images/kubectl-get-nodes-output.png?raw=true" alt="Link" width="600"/>
 
 # Summary
 In this example, we saw how you can use the ```Intel Cloud Optimization Modules for Terraform - Amazon EKS Module``` to create the EKS cluster and how you can setup your workstation or laptop to connect to this EKS cluster and run kubernetes kubectl commands.
