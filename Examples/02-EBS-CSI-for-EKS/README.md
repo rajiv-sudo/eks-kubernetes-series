@@ -1,5 +1,5 @@
 # Summary
-In this example, we will create an EBS volume in AWS. Then we will use the EBS volume to mount inside our pods within the EKS cluster for storage persistance. We will use the [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html). The steps used in this example is based on AWS documentation provided within [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html).
+In this example, we will use an EBS volume to mount inside our pods within the EKS cluster for storage persistance. We will use the [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html). The steps used in this example is based on AWS documentation provided within [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html).
 
 # Pre-requisites
 1. No addtional pre-requisites needed for this example. If you completed all the steps in [01 - Setting up and connecting to an Amazon EKS Cluster](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/01-EKS-setup-and-connect), then all required pre-requisites for this example are already satisfied

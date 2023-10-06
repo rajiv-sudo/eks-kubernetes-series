@@ -10,5 +10,7 @@ In this series, we will explore different setups, configurations and code module
 **Here are the modules available in the series:**
 
 ## [01 - Setting up and connecting to an Amazon EKS Cluster](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/01-EKS-setup-and-connect)
+In this example, we will create an Amazon EKS cluster using [Intel Optimized Cloud Modules for Terraform](https://github.com/intel/terraform-intel-aws-eks/tree/main/Examples/EKS_Managed_Node_Group). Then we will show how to connect to the kubernestes cluster from the user's computer using kubectl.
 
 ## [02 - Using Amazon EBS persistent storage inside Amazon EKS Kubernetes Cluster](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/02-EBS-CSI-for-EKS)
+In this example, we will use an EBS volume to mount inside our pods within the EKS cluster for storage persistance. We will use the [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html). The steps used in this example is based on AWS documentation provided within [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html).
