@@ -15,5 +15,5 @@ In this example, we will create an Amazon EKS cluster using [Intel Optimized Clo
 ## [02 - Using Amazon EBS persistent storage inside Amazon EKS Kubernetes Cluster](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/02-EBS-CSI-for-EKS)
 In this example, we will use an EBS volume to mount inside our pods within the EKS cluster for storage persistance. We will use the [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html). The steps used in this example is based on AWS documentation provided within [Amazon EBS CSI Driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html).
 
-##[03 - Using Intel's Node Feature Discovery for the right placement of Gen AI Fastchat Application](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/03-Intel-Node-Feature-Discovery)
+## [03 - Using Intel's Node Feature Discovery for the right placement of Gen AI Fastchat Application](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/03-Intel-Node-Feature-Discovery)
 In this example, we will use a single EKS cluster with different types of worker nodes and place the right workload on the right node based on the node's hardware features.
