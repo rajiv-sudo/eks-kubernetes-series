@@ -259,7 +259,7 @@ terraform destroy
 ```
 
 # Summary
-In this example, we saw how you can use the [Amazon EBS CSI driver](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html) to attach EBS persistent volumes to your pods in an EKS cluster.
+In this example, we saw how you can use the [Intel's Node Feature Discovery Kubernetes Add-on](https://kubernetes-sigs.github.io/node-feature-discovery/v0.14/get-started/index.html) in being able to use the single EKS cluster to place the right workload on the right worker node.
 
 # References
 1. Intel's Node Feature Discovery - a kubernetes add-on - https://kubernetes-sigs.github.io/node-feature-discovery/stable/get-started/index.html
