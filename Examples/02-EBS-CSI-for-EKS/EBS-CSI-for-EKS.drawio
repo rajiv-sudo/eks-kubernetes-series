@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T20:42:44.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="QPaTxbsrcn7eqyE7u6Yo" version="22.0.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-30T13:05:15.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="NyNYnAxwtGAvSSw59M4I" version="22.0.8" type="device">
   <diagram name="Page-1" id="BdtXLh70MsclHzi9UL6R">
-    <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="DQyKybt4eDzF_iCBCpqU-1" value="Amazon EBS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elastic_block_store;" parent="SOK8esqjdoVx8pa6e1xp-21" vertex="1">
           <mxGeometry x="80" y="280" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="54B4O0L685eCahJd6qLk-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="SOK8esqjdoVx8pa6e1xp-21">
+        <mxCell id="54B4O0L685eCahJd6qLk-2" value="" style="endArrow=none;html=1;rounded=0;" parent="SOK8esqjdoVx8pa6e1xp-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="290.00146067415733" as="sourcePoint" />
             <mxPoint x="170" y="310" as="targetPoint" />
@@ -82,10 +82,16 @@
             <mxPoint x="410" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="54B4O0L685eCahJd6qLk-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="54B4O0L685eCahJd6qLk-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="480.83146067415737" as="sourcePoint" />
             <mxPoint x="300" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JuWlEjKfBvSQd1sBYYgB-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SOK8esqjdoVx8pa6e1xp-6" target="SOK8esqjdoVx8pa6e1xp-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="425" as="sourcePoint" />
+            <mxPoint x="343" y="529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
