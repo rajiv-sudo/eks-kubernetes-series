@@ -97,15 +97,19 @@ Above command works on Linux. If you are using Windows machine, the equivalent t
 
 ### Step06:
 Let us find the worker node name which contains this label. Run the command below.
-```kubectl get nodes -l=feature.node.kubernetes.io/cpu-cpuid.AMXBF16 -o jsonpath='{.items[*].metadata.labels.kubernetes\.io/hostname}{"\n"}'```
+```
+kubectl get nodes -l=feature.node.kubernetes.io/cpu-cpuid.AMXBF16 -o jsonpath='{.items[*].metadata.labels.kubernetes\.io/hostname}{"\n"}'
+```
 
 You will see output like this, where the column ```NAME``` is the name of the worker node.
 ```
 ip-172-31-40-249.ec2.internal
 ```
 ### Step07:
-Verify that this node ```ip-172-31-40-249.ec2.internal``` is the EC2 instance that is created on ```C7i.8xlarge```. Run the below command.
-```kubectl get nodes -l=kubernetes.io/hostname=ip-172-31-40-249.ec2.internal -o jsonpath='{.items[*].metadata.labels.node\.kubernetes\.io/instance-type}{"\n"}'```
+Verify that this node ```ip-172-31-40-249.ec2.internal``` is the EC2 instance that is created on ```C7i.8xlarge```. In your example, the ```node``` will be different based on your EKS cluster. Run the below command. In your command, replace ```ip-172-31-40-249.ec2.internal``` with the value obtained from ```Step06```
+```
+kubectl get nodes -l=kubernetes.io/hostname=ip-172-31-40-249.ec2.internal -o jsonpath='{.items[*].metadata.labels.node\.kubernetes\.io/instance-type}{"\n"}'
+```
 
 The output will look like below.
 ```c7i.8xlarge```
