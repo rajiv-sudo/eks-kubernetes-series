@@ -18,5 +18,5 @@ In this example, we will use an EBS volume to mount inside our pods within the E
 ## [03 - Using Intel's Node Feature Discovery for the right placement of Gen AI Fastchat Application](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/03-Intel-Node-Feature-Discovery)
 In this example, we will use a single EKS cluster with different types of worker nodes and place the right workload on the right node based on the node's hardware features.
 
-[04 - Using Intel's 4th gen Xeon to run Fastchat using LLM and exposed with Web UI](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/04-GenAI-Fastchat-WebUI)
+## [04 - Using Intel's 4th gen Xeon to run Fastchat using LLM and exposed with Web UI](https://github.com/rajiv-sudo/eks-kubernetes-series/tree/main/Examples/04-GenAI-Fastchat-WebUI)
 In this example, we will demonstrate how you can use Intel's 4th generation Xeon scalable processors with AMX to run LLM model based chatbots, without having to use expensive accelerators like GPU.
