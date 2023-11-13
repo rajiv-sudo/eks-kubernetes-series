@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.0 (40646f47)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: fastchat-model-worker
+  name: fastchat-model-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: fastchat-model-worker
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.0 (40646f47)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: fastchat-model-worker
+    spec:
+      containers:
+        - command:
+            - python3
+            - -m
+            - fastchat.serve.model_worker
+            - --model-path
+            - lmsys/vicuna-7b-v1.5
+            - --worker-address
+            - http://fastchat-model-worker:21002
+            - --controller-address
+            - http://fastchat-controller:21001
+            - --host
+            - 0.0.0.0
+            - --port
+            - "21002"
+            - --device
+            - cpu
+          image: mandalrajiv/fastchat-intel-extension-pytorch:v1
+          name: fastchat-model-worker
+          ports:
+            - containerPort: 21002
+          resources: {}
+          volumeMounts:
+            - mountPath: /root/.cache/huggingface
+              name: cache-volume
+      restartPolicy: Always
+      volumes:
+      - name: cache-volume
+        emptyDir: {}
+status: {}
